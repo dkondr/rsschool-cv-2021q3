@@ -29,10 +29,12 @@ I like the field of information technology, programming and everything related t
 
 ### **Work experience.**
 There is no practical experience in web development and programming.
+
 ![Codewarrior Profile Badges](https://www.codewars.com/users/dkondr/badges/small)
 
 ### **My education:**
-*Basic higher education:* VSTU master’s degree of Automation of Technological Processes and Production
+*Basic higher education:* VSTU master’s degree of Automation of Technological Processes and Production.
+
 *Additional prof education:* LLC "Center of Educational Competencies of NTI" - " Tester is the easiest entrance to programming"
 
 ### **English:** 
