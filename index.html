@@ -8,14 +8,17 @@
 <body>
   <header class="page-header">
     <section class="page-header-img">
-      <img class="avatar" src="picture/avatar.jpg" width="200" height="200" alt="Аватарка">
+      <img class="avatar" src="picture/avatar.jpg" width="200" height="200" alt="avatar">
       <h1>Dmitrii Kondratskii</h1>
       <h3> begginer junior Front-end developer</h3>
     </section>
     <section class="page-header-contacts">
-      <p class="contacts"> <img class="header-contacts-icon" src="image/icon-github.png">github.com/dkondr</p>
-      <p class="contacts"> <img class="header-contacts-icon" src="image/icon-mail.png">madcatxyz@mail.ru</p>
-      <p class="contacts"> <img class="header-contacts-icon" src="image/telegram-logo.png">@neovlz1</p> 
+    
+      <ul class="contacts list list-contacts "> <li><img class="header-contacts-icon list-contacts-img" src="image/icon-github.png" alt="icon github">github.com/dkondr</li>
+      <li> <img class="header-contacts-icon list-contacts-img" src="image/icon-mail.png" alt="icon mail">madcatxyz@mail.ru</li>
+      <li> <img class="header-contacts-icon list-contacts-img" src="image/telegram-logo.png" alt="icon telegram">@neovlz1</li> 
+    </ul>
+    <h5 class="hide">.</h5>
     </section>
   </header>
   <main class="page-main">
@@ -35,8 +38,8 @@
         <section class="">
         <h3> Sample code </h3>
     <pre>javascript
-    function factorial(n){
-      if(n<0 || n>12){
+    function factorial(n) {
+      if(n < 0 || n > 12) {
         throw new RangeError();
       }else{
     return n ? n*factorial(n-1):1;
