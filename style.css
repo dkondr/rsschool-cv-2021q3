@@ -18,8 +18,8 @@ body {
 
   .page-header-contacts{
     margin: 0 auto;
-    display: flex;
-    align-content: space-around;
+    /*display: flex;
+    align-content: space-around;*/
     width: 700px; 
   }
   
@@ -57,6 +57,15 @@ body {
 
   .list{
     list-style-type: none;
+  }
+
+  .list-contacts > li{
+    display: inline;
+  }
+
+  .list-contacts-img{
+    display: inline;
+    padding-left: 5%;
   }
 
   .text-justify{
